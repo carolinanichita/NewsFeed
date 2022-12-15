@@ -1,0 +1,13 @@
+schema {
+	query: Query
+}
+
+type Query {
+	allNews:[NewsItem]
+}
+
+type NewsItem {
+	title: String!
+	description: String!
+	pubDate: Date!
+}
